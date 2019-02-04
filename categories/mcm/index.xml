@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MCM on W4ngch3n&#39;s Blog</title>
+    <link>https://wxy665996.github.io/categories/mcm/</link>
+    <description>Recent content in MCM on W4ngch3n&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wxy665996.github.io/categories/mcm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>美赛赛前的一些准备和注意事项</title>
+      <link>https://wxy665996.github.io/blog/before_mcm/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxy665996.github.io/blog/before_mcm/</guid>
+      <description> 论文结构：  Summary Restatement of the Problem ( Introduction ) Assumptions Justification of Our Approach The Model  1 2 3 &amp;hellip;&amp;hellip;  Testing the Model Results Strengths and Weaknesses References  注意事项：  摘要  不超过一页，提交时作为参赛论文的首页 赛题重述与阐明 模型设计及合理性论证 模型测试情况及灵敏度分析 优缺点讨论  引言（Introduction）  第一句话最重要，以及第一段落应浅显易懂 用自己语言重述赛题，明确解题目标 澄清原题中可能出现的模糊概念  论文主体  假设条件与解释： 明确列出所有用到的假设条件，并解释其合理性 模型设计 系列模型：逐步完善推导出最终模型  结论（Conclusions）  描述模型的测试方法和所得到的结果 敏感性分析和稳定性测试 可讨论某些参数值的轻微变化对模型及结论产生的影响 明确指出模型缺陷，以及如何改进和修补 明确指出，假如有充足的时间和计算资源，我们将能够解决哪些问题   </description>
+    </item>
+    
+  </channel>
+</rss>

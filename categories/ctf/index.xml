@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CTF on W4ngch3n&#39;s Blog</title>
+    <link>https://wxy665996.github.io/categories/ctf/</link>
+    <description>Recent content in CTF on W4ngch3n&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wxy665996.github.io/categories/ctf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>豌豆杯CTF的部分题目Writeup</title>
+      <link>https://wxy665996.github.io/blog/wandouctf_wp/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxy665996.github.io/blog/wandouctf_wp/</guid>
+      <description>WEB 1.WEB签到题 签到题很简单，进入网页，F12，在源码里找到flag。
+2.输入密码查看flag 先打开burpsuite，然后在网页输入框中随便输入一串数字，由于题目提示密码是五位纯数字，直接在burpsuite里面load五位纯数字的字典进行爆破，得到密码拿到flag。
+3.这真能传马？ 用weevely生成一个带有秘钥的jpg文件，然后将文件上传上去，上传成功，提示告诉我们要访问的文件夹的具体目录，用weevely通过刚才的秘钥访问该目录，访问成功，然后ls找到flag文件拿到flag。
+4.这真能注入？ sqlmap一把嗦
+Crypto 1.我这密码忘了。。。 两次base64解码就ok。
+2.二战时期的密码 看到这么长（眼熟）这么长（眼熟）这么长（眼熟）的一串二进制，第一想法就是与、或、异或一波，发现密文的二进制位数和给的秘钥的二进制位数一样，就没啥说的直接算吧，最后异或的结果再转字符就拿到了flag。
+3.被黑了，求密码 摩斯电码解码拿到flag。
+4.出航了～出航啦！！ wireshark，用http.request.method==POST对数据包进行过滤，最后发现只有一个POST请求，具体看看包中的内容后发现有pswrd，对paswrd的值进行base64解码拿到flag。
+5.IDC密码破解（未解出） 打开下载的文件，是一串字符串js6163633181327481
+后来比赛结束做出来的人告诉我们这是手机九键。。。ORZ
+最后 附上队长dalao的wp链接：点这里
+最后的最后 接触ctf的时间说不上早也说不上晚，但是感觉自己进步的速度特别慢，大概是因为之前一直没写过博客吧，过一段时间看看坚持下来写博客会有哪些进步吧，啊啊啊给自己加油！！！</description>
+    </item>
+    
+  </channel>
+</rss>

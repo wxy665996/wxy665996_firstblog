@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo&#43;Github on W4ngch3n&#39;s Blog</title>
+    <link>https://wxy665996.github.io/categories/hugo&#43;github/</link>
+    <description>Recent content in Hugo&#43;Github on W4ngch3n&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wxy665996.github.io/categories/hugo+github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>用Hugo和Github搭建个人博客</title>
+      <link>https://wxy665996.github.io/blog/my-first-blog/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wxy665996.github.io/blog/my-first-blog/</guid>
+      <description>Hugo配合GitHub搭建博客(Win 10) 前序 以前从来没写过博客，更别说自己徒手搭一个博客了，博主是一个懒得不能再懒的文笔烂到不行的理科生，但是为了养成一个及时整理自己学到的知识和资料的好习惯，赶鸭子上架，现学现卖。
+协会部门的大多数人们都用了Wordpress或者Hexo+Github搭建的博客，我不知道脑子抽的什么风，有好好的教程不直接参考，反而另辟蹊径选择了Hugo，周围的人都没用过，可怜的我只能通过咀嚼百度上为数不多的文章来自己动手，幸运的是，我已经成功了~qwq
+废话不多说，切入正题~
+Hugo Hugo是一个用Go语言编写的静态网站生成器，很适合专心写博文不用管服务器的人用，如果你正想在GitHub上搭建个人静态博客，不妨试一试。
+1.Hugo安装 直接上链接，我安装的是v0.49.2版本的。
+下载完成后，开始安装，安装完成后，将Hugo添加到环境变量中，添加后，
+cmd中查看版本信息，显示以下即安装成功：
+$ hugo version Hugo Static Site Generator v0.49.2 windows/amd64  2.创建新网站 $ hugo new site myBlog  3.添加主题（以hugo-future-imperfect为例） $ cd myBlog/themes $ git clone https://github.com/jpescador/hugo-future-imperfect.git  当然你可以选择自己喜欢的博客主题，Hugo提供很多主题。
+4.复制主题标准样式的配置文件及资源文件到对应路径下： $ cd ~/myBlog/themes/hugo-future-imperfect/exampleSite $ cp config.toml ~/myBlog/ $ cp -r static ~/myBlog/static $ cp -r content ~/myBlog/content  5.适当修改config.toml的内容，在/content/目录下添加新的.md文件可以发表新文章。 6.测试网站 $ hugo server  打开http://localhost:1313/查看修改后的网页内容。
+7.发布网站
+hugo --theme=hugo-future-imperfect --baseUrl=&amp;quot;https://yourname.github.io/&amp;quot;  此时，在~/myBlog目录下会创建一个public的文件夹，将此文件夹下的所有内容git push到github上的yourname.</description>
+    </item>
+    
+  </channel>
+</rss>
